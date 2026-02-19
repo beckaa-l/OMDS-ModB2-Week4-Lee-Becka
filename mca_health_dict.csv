@@ -1,0 +1,29 @@
+Position,Column Name (Display),Field Name (API),Data Type,Description
+1,Age_group,age_group,text,Age group
+2,Sex,sex,text,Sex
+3,Topic,topic,text,Health Topic Category
+4,Data_source,data_source,text,Data source 
+5,Health_condition-Data_source,health_condition_data_source,text,Health condition with data source
+6,Period,period,text,"1, 2, 3, 5, or 10-year periods"
+7,Year,year,text,Year
+8,Denominator,denominator,number,Number of people in the group
+9,Denominator_is,denominator_is,text,Definition of denominator
+10,Number_with_outcome,number_with_outcome,number,Number of people or cases in the group with the condition
+11,Numerator_is,numerator_is,text,Definition of numerator
+12,Rate_95CI,rate_95ci,text,"Rate of the condition, with the 95 percent confidence interval  "
+13,Rate_SF_pop,rate_sf_pop,number,Rate of the condition
+14,CI_low,ci_low,number,Lower bound of the 95 percent confidence interval
+15,CI_high,ci_high,number,Higher bound of the 95 percent confidence interval
+16,Rate_is,rate_is,text,"Rate is number per 10, 100, 1000 of population group"
+17,Insurance,insurance,text,"Type of insurance (public, not public, private)"
+18,Zip_code,zip_code,text,San Francisco zip code
+19,Race_ethnicity,race_ethnicity,text,Race-ethnicity
+20,Rate_title,rate_title,text,"Rate with condition, data source, population group affected, specific year(s)"
+21,Trend_title,trend_title,text,"Rate with condition, data source, population group affected, by yearù"
+22,Filter_1000_or_more,filter_1000_or_more,text,"Categorical variable to filter the dataset by number of cases. Includes ò0"", ò1-19"", ""20-50"", ""51-99"", ò100-499"", ò500-999"", and ò1000 or more""."
+23,Sort_1000_or_more,sort_1000_or_more,number,Numeric variable to sort Over_1000_with_condition
+24,Primary_Neighborhood,primary_neighborhood,text,Primary neighborhoods (Analysis Neighborhood) associated with each San Francisco zip code
+25,Cause of death rank,cause_of_death_rank,text,Relative frequency of causes of death in San Francisco
+26,Death_tooltip,death_tooltip,text,Details about each cause of death group 
+27,Latest_data,latest_data,text,"Filter to ò1"" to select the most recent data"
+28,Unique_row_id,unique_row_id,number,Unique identifier for each row in the dataset
